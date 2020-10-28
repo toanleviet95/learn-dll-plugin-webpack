@@ -1,6 +1,11 @@
 # Learn How to DLL Plugin work in webpack
 Link from LogRocket Blog: https://blog.logrocket.com/speed-up-your-webpack-build-with-the-dll-plugin
 
+## About Dll Plugin
+Link from webpack: https://webpack.js.org/plugins/dll-plugin
+
+> The DllPlugin and DllReferencePlugin provide means to split bundles in a way that can drastically improve build time performance. The term "DLL" stands for Dynamic-link library which was originally introduced by Microsoft.
+
 ## How to run
 First: yarn buildVendor
 Then: yarn build
