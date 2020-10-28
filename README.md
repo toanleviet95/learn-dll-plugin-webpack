@@ -7,8 +7,13 @@ Link from webpack: https://webpack.js.org/plugins/dll-plugin
 > The DllPlugin and DllReferencePlugin provide means to split bundles in a way that can drastically improve build time performance. The term "DLL" stands for Dynamic-link library which was originally introduced by Microsoft.
 
 ## How to run
-First: yarn buildVendor
-Then: yarn build
+```
+// Run first
+yarn buildVendor
+
+// Then
+yarn build
+```
 
 Testing the bundles using the `speed-measure-webpack-plugin` gives the following benchmarks:
 
