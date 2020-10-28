@@ -8,9 +8,9 @@ Link from webpack: https://webpack.js.org/plugins/dll-plugin
 
 ## How to run
 ```console
-yarn buildVendor
+$ yarn buildVendor
 
-yarn build
+$ yarn build
 ```
 
 Testing the bundles using the `speed-measure-webpack-plugin` gives the following benchmarks:
